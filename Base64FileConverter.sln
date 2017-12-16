@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64FileConverter", "Base64FileConverter\Base64FileConverter.csproj", "{E69A2C85-6CAD-430B-B6C4-CC366EA75035}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs36
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Base64FileConverter\\Base64FileConverter.csproj
+		SccProjectName1 = Base64FileConverter
+		SccLocalPath1 = Base64FileConverter
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E69A2C85-6CAD-430B-B6C4-CC366EA75035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69A2C85-6CAD-430B-B6C4-CC366EA75035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69A2C85-6CAD-430B-B6C4-CC366EA75035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69A2C85-6CAD-430B-B6C4-CC366EA75035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

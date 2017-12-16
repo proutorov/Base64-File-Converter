@@ -1,0 +1,10 @@
+﻿<Window x:Class="Base64FileConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Base64 File Converter" Height="205.9" Width="525" ResizeMode="CanMinimize">
+    <Grid HorizontalAlignment="Center" Height="196" VerticalAlignment="Top" Width="517" Margin="0,0,0,-20">
+        <TextBlock x:Name="DropBox" Drop="Dropbox_Drop" AllowDrop="True" HorizontalAlignment="Center" Margin="10,10,10,0" VerticalAlignment="Top" Height="105" Width="497" FontSize="22" TextAlignment="Center" Background="#FFD8EAC9"><Run/><LineBreak/><Run Text="Drop file here"/><LineBreak/><Run FontStyle="Italic" FontSize="14" Text="(converted file will be placed into the same folder where the source file is)"/></TextBlock>
+        <RadioButton x:Name="base64ToByte" Content="Base64 -&gt; Byte" HorizontalAlignment="Left" Margin="297,141,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="byteToBase64" Content="Byte -&gt; Base64" HorizontalAlignment="Left" Margin="88,141,0,0" VerticalAlignment="Top" IsChecked="True" />
+    </Grid>
+</Window>
